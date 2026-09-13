@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Дигитален помощник",
+    "slug": "digital-pomoshnik-bg",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "bg.digitalpomoshnik.app",
+      "versionCode": 1
+    },
+    "plugins": [
+      "expo-image-picker",
+      "expo-document-picker"
+    ],
+    "extra": {
+      "apiUrl": "https://YOUR-BACKEND.example.com"
+    }
+  }
+}

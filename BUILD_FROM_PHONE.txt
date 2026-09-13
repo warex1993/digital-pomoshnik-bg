@@ -1,0 +1,11 @@
+От телефон:
+1) Изтегли ZIP-а.
+2) Качи проекта в GitHub.
+3) В GitHub Codespaces отвори терминал.
+4) npm install
+5) npm install -g eas-cli
+6) eas login
+7) eas build:configure
+8) eas build --platform android --profile preview
+EAS ще генерира APK за директна инсталация.
+Преди build промени API адреса в app.json и App.js с адреса на твоя backend.
